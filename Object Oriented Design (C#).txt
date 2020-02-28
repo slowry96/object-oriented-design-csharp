@@ -1,0 +1,28 @@
+Object Oriented Design (C#)
+
+OOD/P - OOD/P is an approach to development that focuses or orients itself towards breaking programs down into individual objects.
+
+The four pillars of OOD are Encapsulation, Inheritance, Polymorphism, and abstraction
+
+
+	- Encapsulation means that a group of related properties, methods, and other members are treated as a single unit or object.
+		- Specifically a single class that keeps private it's properties and methods that change those properties. We want to only allow controlled methods to access the class
+			and encapsulate the main methods and properties away from everything else.
+
+	- Inheritance describes the ability to create new classes based on an existing class.
+		- We want to break down objects that have common functionality into one class and let the objects with differing properties inherit the properties it needs from the new parent object.
+		- Example: students and teachers. Student and Teacher objects inherit from a person class. A person has a name, birthday, and email. We don't need to have these properties in the
+			student and teacher class. We pull the properties into the Person class and Student and Teacher now inherit those properties from the seperate class as well as having their
+			own properties such as grade level for student or subject for teacher.
+
+	- Polymorphism means that you can have multiple classes that can be used interchangeably, even though each class implements the same properties or methods in different ways.
+		- We typically implement this with interfaces. An interface is a blue print for your classes. The interface declares the base type and properties and methods without holding
+			any of the functionality. Then when we need a couple of similar objects that do different things we inherit from the interface blueprint and create the specific fuctionality
+			in each class. This is helpful so that we can exclusively pay attention to the parent interface type, but we will still have the child functionality.
+
+
+	- Abstraction is the idea that objects should only show high-level and easy to use ways of using that object.
+		- This is a natural extension of Encapsulation. Encapsulation is the purpose of Abstraction. We abstract surface level methods so that we can encapsulate everything else.
+		- A phone is a perfect example of this, You only have a few inputs. The touch screen, volume buttons, and power button. Yet your phone does a lot more under the hood with those inputs.
+
+
