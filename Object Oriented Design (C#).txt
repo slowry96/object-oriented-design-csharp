@@ -24,5 +24,3 @@ The four pillars of OOD are Encapsulation, Inheritance, Polymorphism, and abstra
 	- Abstraction is the idea that objects should only show high-level and easy to use ways of using that object.
 		- This is a natural extension of Encapsulation. Encapsulation is the purpose of Abstraction. We abstract surface level methods so that we can encapsulate everything else.
 		- A phone is a perfect example of this, You only have a few inputs. The touch screen, volume buttons, and power button. Yet your phone does a lot more under the hood with those inputs.
-
-
